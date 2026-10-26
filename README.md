@@ -57,3 +57,7 @@ python3 scripts/measure.py --serial DEVICE_SERIAL --duration 30 --expected-state
 长时验证另行进行：相同亮度、音量、刷新率及网络条件下，交替测试助手禁用和运行，每组 20 分钟、各三次。保持供电条件一致，记录温度、播放内容与系统电池估算。广告内容、网络和系统缓存均会引入误差，不能只凭电池百分比宣称“最低耗电”。
 
 当前未完成长时耗电与多设备兼容性验证。
+
+## 开源许可
+
+本项目采用 [MIT License](LICENSE)。
