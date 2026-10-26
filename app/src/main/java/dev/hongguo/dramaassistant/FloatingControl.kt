@@ -27,7 +27,7 @@ internal class FloatingControl(context: Context, private val toggle: () -> Unit)
     private val slop = ViewConfiguration.get(context).scaledTouchSlop
     private val handler = Handler(Looper.getMainLooper())
     private val fullWidth = dp(48)
-    private val collapsedWidth = dp(20)
+    private val collapsedWidth = dp(28)
     private val height = dp(48)
     private var attached = false
     private var running = false
@@ -77,11 +77,11 @@ internal class FloatingControl(context: Context, private val toggle: () -> Unit)
         override fun onDraw(canvas: Canvas) {
             super.onDraw(canvas)
             val radius = 20 * density
-            // The clipped circle exposes only an 8dp arc at the screen edge.
+            // The clipped circle exposes only a 16dp arc at the screen edge.
             val centerX = when {
                 expanded -> width / 2f
-                dockLeft -> -12 * density
-                else -> width + 12 * density
+                dockLeft -> -4 * density
+                else -> width + 4 * density
             }
             val centerY = height / 2f
             oval.set(centerX - radius, centerY - radius, centerX + radius, centerY + radius)
