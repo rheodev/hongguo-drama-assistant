@@ -1,0 +1,9 @@
+<resources>
+    <color name="surface">#FAFAF5</color>
+    <color name="foreground">#1C2722</color>
+    <color name="secondary">#505D55</color>
+    <color name="primary">#285D45</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="outline">#CDD3CA</color>
+    <color name="status_surface">#E5EDE2</color>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">短剧切集助手</string>
+    <string name="accessibility_description">在你主动开始后，读取红果短剧的当前页面；同时出现“广告”和“上滑继续观看短剧”时自动上滑一次。无需截图、联网或 Root。悬浮按钮可随时暂停。此功能不判断视频是否已完整播放。</string>
+    <string name="diagnostics">本进程累计：事件 %1$d 次，页面检查 %2$d 次，上滑 %3$d 次。\n检查耗时：平均 %4$d μs，最高 %5$d μs。\n最近一次事件到手势提交：%6$d ms。\n计数仅在此页面刷新；无周期扫描、截图、联网或唤醒锁。</string>
+</resources>

@@ -1,0 +1,27 @@
+.gradle/
+.kotlin/
+.idea/
+**/build/
+local.properties
+*.iml
+*.jks
+*.keystore
+captures/
+dist/
+__pycache__/
+
+# Local working documents and generated files
+AGENTS.md
+PRODUCT.md
+PERFORMANCE.md
+.codex/
+.agents/
+.DS_Store
+*.log
+*.apk
+*.aab
+.env
+.env.*
+*.pem
+*.p12
+*.pfx
